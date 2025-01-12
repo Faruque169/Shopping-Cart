@@ -18,14 +18,14 @@
         "name": "Over Ear Headphone",
         "description": "For boost Sound Experience",
         "price": 80.99,
-        "image": "./resources/image1.avif"
+        "image": "resources/image1.avif"
     },
     {
         "id": 4,
         "name": "Ladies Bag",
         "description": "For luxury and style",
         "price": 128.99,
-        "image": "./resources/image2.jpg"
+        "image": "resources/image2.jpg"
     },
     
     {
@@ -33,27 +33,27 @@
         "name": "Boy's Check T-Shirt",
         "description": "suitable for all occasions",
         "price": 100.99,
-        "image": "./resources/image3.png"
+        "image": "resources/image3.png"
     },
     {
         "id": 6,
         "name": "Noise Cancellation Headphone",
         "description": "For emersive Sound Experience",
         "price": 81.99,
-        "image": "./resources/image1.avif"
+        "image": "resources/image1.avif"
     },
     {
         "id": 7,
         "name": "Ladies Premium Bag",
         "description": "For Long lasting and style",
         "price": 228.99,
-        "image": "./resources/image2.jpg"
+        "image": "resources/image2.jpg"
     },
     {
         "id": 8,
         "name": "Bluetooth Headphone",
         "description": "For emersive Sound Experience",
         "price": 80.99,
-        "image": "./resources/image1.avif"
+        "image": "resources/image1.avif"
     }
 ]
