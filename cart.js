@@ -47,4 +47,5 @@ function clearCart() {
     updateCartUI();
 }
 
+
 loadCart();

@@ -14,12 +14,21 @@
     <main>
         <section id="cart">
             <div id="cart-items"></div>
+            <div>Items in cart: <span id="cart-count">0</span></div>
             <div id="cart-summary">
+                <p>Subtotal: $<span id="subtotal-value">0.00</span></p>
+                <div>
+                    <input type="text" id="promo-code" placeholder="Enter Promo Code">
+                    <button onclick="applyPromoCode()">Apply</button>
+                    <p id="promo-message" class="promo-message"></p>
+                </div>
+                <p>Discount: $<span id="discount-value">0.00</span></p>
                 <p>Total: $<span id="total-price">0.00</span></p>
                 <button onclick="clearCart()">Clear Cart</button>
                 <button onclick="alert('Checkout Successful!')">Checkout</button>
             </div>
         </section>
+        
     </main>
     <script src="cart.js"></script>
     <script src="ui.js"></script>
