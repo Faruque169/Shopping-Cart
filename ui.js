@@ -63,6 +63,7 @@ async function updateCartUI() {
         const cartItems = document.getElementById('cart-items');
         const cartCount = document.getElementById('cart-count');
         const totalPrice = document.getElementById('total-price');
+       
         
         const promoInput = document.getElementById('promo-code').value.trim().toLowerCase();
 
@@ -108,9 +109,6 @@ async function updateCartUI() {
 
         const discountValue = document.getElementById('discount-value');
         discountValue.textContent = discount; // Display total (after discount)
-
-        const promocodeValue = document.getElementById('promo-value');
-        promocodeValue.textContent = promoInput; // Display total (after discount)
 
         // Update total price
         if (totalPrice) {
