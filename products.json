@@ -11,7 +11,7 @@
         "name": "Boy's T-Shirt",
         "description": "suitable for all occasions",
         "price": 100.99,
-        "image": "./resources/image3.png"
+        "image": "./resources/image3.jpg"
     },
     {
         "id": 3,
@@ -33,7 +33,7 @@
         "name": "Boy's Check T-Shirt",
         "description": "suitable for all occasions",
         "price": 100.99,
-        "image": "resources/image3.png"
+        "image": "resources/image3.jpg"
     },
     {
         "id": 6,
